@@ -19,6 +19,7 @@
 ###### [2130. Maximum Twin Sum of a Linked List](Medium/Maximum%20Twin%20Sum%20of%20a%20Linked%20List/Solution.java)
 
 ###### [876. Middle of the Linked List](Medium/Middle%20of%20the%20Linked%20List/Solution.java)
+###### [148. Sort List](Medium/Sort%20List/Solution.java)
 
 
 ### Hard
