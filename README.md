@@ -9,6 +9,7 @@
 ###### [28. Find the Index of the First Occurrence in a String](Easy/Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String/Solution.java)
 ###### [1550. Three Consecutive Odds](Easy/Three%20Consecutive%20Odds/Solution.java)
 ###### [3024. Type of Triangle](Easy/Type%20of%20Triangle/Solution.java)
+###### [2099. Find Subsequence of Length K With the Largest Sum](Easy/Find%20Subsequence%20of%20Length%20K%20With%20the%20Largest%20Sum/Solution.java)
 
 ### Medium
 
