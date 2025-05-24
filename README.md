@@ -11,7 +11,7 @@
 ###### [3024. Type of Triangle](Easy/Type%20of%20Triangle/Solution.java)
 ###### [2099. Find Subsequence of Length K With the Largest Sum](Easy/Find%20Subsequence%20of%20Length%20K%20With%20the%20Largest%20Sum/Solution.java)
 ###### [2094. Finding 3-Digit Even Numbers](Easy/Finding%203-Digit%20Even%20Numbers/Solution.java)
-###### [2099. Find Subsequence of Length K With the Largest Sum](Easy/Find%20Subsequence%20of%20Length%20K%20With%20the%20Largest%20Sum/Solution.java)
+###### [2942. Find Words Containing Character](Easy/Find%20gWords%20Containing%20Character/Solution.java)
 
 ### Medium
 
