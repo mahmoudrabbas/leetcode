@@ -1,15 +1,5 @@
-import java.util.*;
-import java.util.stream.Collectors;
-
-public class Main {
-
-    public static void main(String[] args) {
-
-        System.out.println(maxFreqSum("successes"));
-
-    }
-
-    public static int maxFreqSum(String s) {
+class Solution {
+    public int maxFreqSum(String s) {
         String vowels = "aeiou";
         char [] chars = (s+'{').toCharArray();
         Arrays.sort(chars);
@@ -47,8 +37,6 @@ public class Main {
         }
 
         return (maxV+maxC);
+
     }
-
-
 }
-
