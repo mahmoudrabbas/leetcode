@@ -1,19 +1,5 @@
-import java.util.*;
-import java.util.stream.Collectors;
-
-public class Main {
-
-    public static void main(String[] args) {
-        int[] arr1 = {4,9,5};
-        int[] arr2 = {9,4,9,8,4};
-
-        for (int x: intersection(arr1, arr2)){
-            System.out.print(x+" ");
-        };
-        System.out.println();
-
-    }
-    public static int[] intersection(int[] nums1, int[] nums2) {
+class Solution {
+    public int[] intersection(int[] nums1, int[] nums2) {
         Set<Integer> set = new HashSet<>();
         Set<Integer> res = new HashSet<>();
         for (int x: nums1) set.add(x);
@@ -32,6 +18,4 @@ public class Main {
         return result;
 
     }
-
 }
-
