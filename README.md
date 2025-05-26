@@ -18,6 +18,7 @@
 ###### [350. Intersection of Two Arrays II](Easy/Intersection of Two Arrays II/Solution.java)
 ###### [1002. Find Common Characters](Easy/Find Common Characters/Solution.java)
 ###### [2215. Find the Difference of Two Arrays](Easy/Find the Difference of Two Arrays/Solution.java)
+###### [085. Count Common Words With One Occurrence](Easy/Count Common Words With One Occurrence/Solution.java)
 
 ### Medium
 

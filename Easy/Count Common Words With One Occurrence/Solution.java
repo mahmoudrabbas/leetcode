@@ -1,19 +1,5 @@
-import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
-
-public class Main {
-
-    public static void main(String[] args) {
-
-//        String [] strs = {"bella","label","roller"};
-        String [] arr1 = {"a","aa","aaa"};
-        String [] arr2 = {"b","bb","bbb"};
-
-        System.out.println(countWords(arr1, arr2));
-    }
-
-    public static int countWords(String[] words1, String[] words2) {
+class Solution {
+    public int countWords(String[] words1, String[] words2) {
         Map<String, Integer> map1 = new HashMap<>();
         Map<String, Integer> map2 = new HashMap<>();
         for (String x: words1){
@@ -32,7 +18,6 @@ public class Main {
         }
 
         return count;
+
     }
-
 }
-
