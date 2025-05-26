@@ -1,19 +1,5 @@
-import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
-
-public class Main {
-
-    public static void main(String[] args) {
-
-        String [] strs = {"bella","label","roller"};
-//        for (String x: ){
-//            System.out.print(x+" ");
-//        };
-        System.out.println(commonChars(strs));
-    }
-
-    public static List<String> commonChars(String[] words) {
+class Solution {
+    public List<String> commonChars(String[] words) {
         List<String> result = new ArrayList<>();
 
         if(words.length==1){
@@ -40,7 +26,7 @@ public class Main {
 
 
         return result;
+
+
     }
-
 }
-

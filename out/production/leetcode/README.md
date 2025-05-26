@@ -15,6 +15,7 @@
 ###### [1295. Find Numbers with Even Number of Digits](Easy/Find%20Numbers%20with%20Even%20Number%20of%20Digits/Solution.java)
 ###### [3541. Find Most Frequent Vowel and Consonant](Easy/Find%20Most%20Frequent%20Vowel%20and%20Consonant/Solution.java)
 ###### [349. Intersection of Two Arrays](Easy/Intersection of Two Arrays/Solution.java)
+###### [350. Intersection of Two Arrays II](Easy/Intersection of Two Arrays II/Solution.java)
 
 ### Medium
 
