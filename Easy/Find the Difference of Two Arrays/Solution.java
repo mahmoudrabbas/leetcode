@@ -1,19 +1,5 @@
-import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
-
-public class Main {
-
-    public static void main(String[] args) {
-
-//        String [] strs = {"bella","label","roller"};
-        int [] arr1 = {1,2,3};
-        int [] arr2 = {2,4,6};
-
-        System.out.println(findDifference(arr1, arr2));
-    }
-
-    public static List<List<Integer>> findDifference(int[] nums1, int[] nums2) {
+class Solution {
+    public List<List<Integer>> findDifference(int[] nums1, int[] nums2) {
         List<List<Integer>> res = new ArrayList<>();
         Set<Integer> set1 = new HashSet<>(Arrays.stream(nums1).boxed().collect(Collectors.toList()));
         Set<Integer> set2 = new HashSet<>(Arrays.stream(nums2).boxed().collect(Collectors.toList()));
@@ -39,7 +25,4 @@ public class Main {
         return res;
 
     }
-
-
 }
-
