@@ -1,19 +1,5 @@
-import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
-
-public class Main {
-
-    public static void main(String[] args) {
-        int[] arr1 = {4,9,5};
-        int[] arr2 = {9,4,9,8,4};
-        for (int x: intersect(arr1, arr2)){
-            System.out.print(x+" ");
-        };
-        System.out.println();
-    }
-
-    public static int[] intersect(int[] nums1, int[] nums2) {
+class Solution {
+    public int[] intersect(int[] nums1, int[] nums2) {
         List<Integer> a = IntStream.of(nums1).boxed().collect(Collectors.toList());
         List<Integer> b = IntStream.of(nums2).boxed().collect(Collectors.toList());
         List<Integer> res = new ArrayList<>();
@@ -37,8 +23,5 @@ public class Main {
 
         return result;
 
-
     }
-
 }
-
