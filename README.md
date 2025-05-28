@@ -23,6 +23,7 @@
 ###### [085. Count Common Words With One Occurrence](Easy/Count Common Words With One Occurrence/Solution.java)
 ###### [2894. Divisible and Non-divisible Sums Difference](Easy/Divisible and Non-divisible Sums Difference/Solution.java)
 ###### [1952. Three Divisors](Easy/Three Divisors/Solution.java)
+###### [1979. Find Greatest Common Divisor of Array](Easy/Find Greatest Common Divisor of Array/Solution.java)
 
 ### Medium
 

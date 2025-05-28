@@ -10,28 +10,23 @@ public class Main {
         String [] arr1 = {"a","aa","aaa"};
         String [] arr2 = {"b","bb","bbb"};
 
-        System.out.println(countWords(arr1, arr2));
+        int [] arr = {3,3};
+        System.out.println(findGCD(arr));
     }
 
-    public static int countWords(String[] words1, String[] words2) {
-        Map<String, Integer> map1 = new HashMap<>();
-        Map<String, Integer> map2 = new HashMap<>();
-        for (String x: words1){
-            map1.put(x, map1.getOrDefault(x, 0)+1);
-        }
+    public static int findGCD(int[] nums) {
+        Arrays.sort(nums);
 
-        for (String x: words2){
-            map2.put(x, map2.getOrDefault(x, 0)+1);
-        }
+        int min = nums[0];
+        int max = nums[nums.length - 1];
 
-        int count = 0;
-        for (String x: words1){
-            if(map1.get(x)!=null&&map2.get(x)!=null&&map1.get(x)==1 && map2.get(x)==1){
-                count++;
+        for (int i = min; i <= max; i--) {
+            if (max % i == 0 && min % i == 0) {
+                return i;
             }
         }
 
-        return count;
+        return -1;
     }
 
 }
