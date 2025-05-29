@@ -16,14 +16,15 @@
 ###### [2942. Find Words Containing Character](Easy/Find%20Words%20Containing%20Character/Solution.java)
 ###### [1295. Find Numbers with Even Number of Digits](Easy/Find%20Numbers%20with%20Even%20Number%20of%20Digits/Solution.java)
 ###### [3541. Find Most Frequent Vowel and Consonant](Easy/Find%20Most%20Frequent%20Vowel%20and%20Consonant/Solution.java)
-###### [349. Intersection of Two Arrays](Easy/Intersection of Two Arrays/Solution.java)
-###### [350. Intersection of Two Arrays II](Easy/Intersection of Two Arrays II/Solution.java)
-###### [1002. Find Common Characters](Easy/Find Common Characters/Solution.java)
-###### [2215. Find the Difference of Two Arrays](Easy/Find the Difference of Two Arrays/Solution.java)
-###### [085. Count Common Words With One Occurrence](Easy/Count Common Words With One Occurrence/Solution.java)
-###### [2894. Divisible and Non-divisible Sums Difference](Easy/Divisible and Non-divisible Sums Difference/Solution.java)
-###### [1952. Three Divisors](Easy/Three Divisors/Solution.java)
-###### [1979. Find Greatest Common Divisor of Array](Easy/Find Greatest Common Divisor of Array/Solution.java)
+###### [349. Intersection of Two Arrays](Easy/Intersection%20of%20Two%20Arrays/Solution.java)
+###### [350. Intersection of Two Arrays II](Easy/Intersection%20of%20Two%20Arrays%20II/Solution.java)
+###### [1002. Find Common Characters](Easy/Find%20Common%20Characters/Solution.java)
+###### [2215. Find the Difference of Two Arrays](Easy/Find%20the%20Difference%20of%20Two%20Arrays/Solution.java)
+###### [085. Count Common Words With One Occurrence](Easy/Count%20Common%20Words%20With%20One%20Occurrence/Solution.java)
+###### [2894. Divisible and Non-divisible Sums Difference](Easy/Divisible%20and%20Non-divisible%20Sums%20Difference/Solution.java)
+###### [1952. Three Divisors](Easy/Three%20Divisors/Solution.java)
+###### [1979. Find Greatest Common Divisor of Array](Easy/Find%20Greatest%20Common%20Divisor%20of%20Array/Solution.java)
+###### [3467. Transform Array by Parity](Easy/Transform%20Array%20by%20Parity/Solution.java)
 
 ### Medium
 

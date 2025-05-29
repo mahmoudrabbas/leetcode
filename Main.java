@@ -6,27 +6,30 @@ public class Main {
 
     public static void main(String[] args) {
 
-//        String [] strs = {"bella","label","roller"};
-        String [] arr1 = {"a","aa","aaa"};
-        String [] arr2 = {"b","bb","bbb"};
-
-        int [] arr = {3,3};
-        System.out.println(findGCD(arr));
+        int [] arr = {1,2,3,4,5};
+        for (int x: transformArray(arr)){
+            System.out.println(x);
+        }
     }
 
-    public static int findGCD(int[] nums) {
-        Arrays.sort(nums);
+    public static int[] transformArray(int[] nums) {
+        int e = 0;
+        for(int i=0; i<nums.length; i++){
+            if(nums[i]%2==0) e++;
+        }
 
-        int min = nums[0];
-        int max = nums[nums.length - 1];
 
-        for (int i = min; i <= max; i--) {
-            if (max % i == 0 && min % i == 0) {
-                return i;
+        for(int i=0; i<nums.length; i++){
+            if(e>=0){
+                nums[i] = 0;
+                e--;
+            }else{
+                nums[i] = 1;
             }
         }
 
-        return -1;
+        return nums;
+
     }
 
 }
